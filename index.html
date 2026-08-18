@@ -7,136 +7,156 @@
 <title>Jhonny & Gilda | Matrimonio</title>
 
 <style>
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-  margin:0;
-  background:#f8f3ea;
-  color:#33291f;
-  font-family:Georgia,"Times New Roman",serif;
-  text-align:center;
+body {
+  margin: 0;
+  background: #f8f3ea;
+  color: #33291f;
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
 }
 
-.contenitore{
-  max-width:760px;
-  margin:auto;
-  padding:35px 18px 45px;
-  min-height:100vh;
+.contenitore {
+  max-width: 760px;
+  margin: auto;
+  padding: 35px 18px 45px;
+  min-height: 100vh;
 }
 
-.hero{
-  padding:15px 8px 25px;
+.hero {
+  padding: 15px 8px 25px;
 }
 
-.monogramma{
-  color:#ad7b2f;
-  font-size:28px;
-  letter-spacing:8px;
-  margin-bottom:18px;
+.monogramma {
+  color: #ad7b2f;
+  font-size: 28px;
+  letter-spacing: 8px;
+  margin-bottom: 18px;
 }
 
-.nomi{
-  font-size:clamp(34px,8vw,60px);
-  line-height:1.05;
-  letter-spacing:2px;
-  color:#9a6a27;
-  text-transform:uppercase;
+.nomi {
+  font-size: clamp(34px, 8vw, 60px);
+  line-height: 1.05;
+  letter-spacing: 2px;
+  color: #9a6a27;
+  text-transform: uppercase;
 }
 
-.ampersand{
-  font-size:32px;
-  color:#ad7b2f;
-  margin:10px;
+.ampersand {
+  font-size: 32px;
+  color: #ad7b2f;
+  margin: 10px;
 }
 
-.linea{
-  width:120px;
-  height:1px;
-  background:#c49a5a;
-  margin:20px auto;
+.linea {
+  width: 120px;
+  height: 1px;
+  background: #c49a5a;
+  margin: 20px auto;
 }
 
-.intro{
-  font-size:19px;
-  line-height:1.7;
+.intro {
+  font-size: 19px;
+  line-height: 1.7;
 }
 
-.cuore{
-  color:#b48336;
-  font-size:26px;
-  margin:15px;
+.cuore {
+  color: #b48336;
+  font-size: 26px;
+  margin: 15px;
 }
 
-.card{
-  background:#fffdf8;
-  border:1px solid #d9bd8c;
-  border-radius:22px;
-  padding:26px 20px;
-  margin:20px 0;
-  box-shadow:0 7px 24px rgba(90,65,30,.08);
+.card {
+  background: #fffdf8;
+  border: 1px solid #d9bd8c;
+  border-radius: 22px;
+  padding: 26px 20px;
+  margin: 20px 0;
+  box-shadow: 0 7px 24px rgba(90, 65, 30, 0.08);
 }
 
-.card h2{
-  margin:0 0 16px;
-  color:#a27332;
-  letter-spacing:1px;
-  font-size:24px;
+.card h2 {
+  margin: 0 0 16px;
+  color: #a27332;
+  letter-spacing: 1px;
+  font-size: 24px;
 }
 
-.dettagli{
-  font-size:18px;
-  line-height:1.8;
+.dettagli {
+  font-size: 18px;
+  line-height: 1.8;
 }
 
-.bottone{
-  display:inline-block;
-  margin-top:18px;
-  padding:13px 22px;
-  border-radius:8px;
-  background:#18212c;
-  color:#d8ad60;
-  text-decoration:none;
-  font-weight:bold;
-  letter-spacing:.5px;
+.bottone {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 13px 22px;
+  border-radius: 8px;
+  border: none;
+  background: #18212c;
+  color: #d8ad60;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  cursor: pointer;
 }
 
-.iban{
-  background:#f8f0e4;
-  border:1px solid #dfc9a6;
-  border-radius:14px;
-  padding:17px;
-  margin-top:15px;
-  font-size:17px;
-  line-height:1.7;
-  overflow-wrap:anywhere;
+.iban {
+  background: #f8f0e4;
+  border: 1px solid #dfc9a6;
+  border-radius: 14px;
+  padding: 17px;
+  margin-top: 15px;
+  font-size: 17px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
 }
 
-.iban strong{
-  font-size:18px;
+.iban strong {
+  font-size: 18px;
 }
 
-.piccolo{
-  font-size:14px;
-  color:#6f6254;
-  margin-top:10px;
+.piccolo {
+  font-size: 14px;
+  color: #6f6254;
+  margin-top: 10px;
 }
 
-.footer{
-  padding:30px 10px 10px;
-  color:#a27332;
+.footer {
+  padding: 30px 10px 10px;
+  color: #a27332;
 }
 
-.grazie{
-  font-size:34px;
-  font-style:italic;
+.grazie {
+  font-size: 34px;
+  font-style: italic;
 }
 
-.coppia{
-  font-size:20px;
-  color:#33291f;
-  margin-top:8px;
+.coppia {
+  font-size: 20px;
+  color: #33291f;
+  margin-top: 8px;
+}
+
+@media (max-width: 430px) {
+  .contenitore {
+    padding: 28px 15px 40px;
+  }
+
+  .intro {
+    font-size: 17px;
+  }
+
+  .dettagli {
+    font-size: 16px;
+  }
+
+  .iban {
+    font-size: 14px;
+  }
 }
 </style>
 </head>
@@ -149,13 +169,23 @@ body{
 
     <div class="monogramma">J ♡ G</div>
 
-    <div class="nomi">Jhonny Jacome</div>
+    <div class="nomi">
+      Jhonny Jacome
+    </div>
 
-    <div class="ampersand">&amp;</div>
+    <div class="ampersand">
+      &amp;
+    </div>
 
-    <div class="nomi">Gilda Gonzalez</div>
+    <div class="nomi">
+      Gilda Gonzalez
+    </div>
 
     <div class="linea"></div>
+
+    <p class="intro">
+      <strong>💍 CI SPOSIAMO! ❤️</strong>
+    </p>
 
     <p class="intro">
       Siamo lieti d’invitarvi a celebrare con noi
@@ -195,7 +225,9 @@ body{
       class="bottone"
       href="https://www.google.com/maps/search/?api=1&query=Piazza+del+Duomo+12"
       target="_blank">
+
       📍 APRI MAPPA
+
     </a>
 
   </section>
@@ -223,7 +255,9 @@ body{
       class="bottone"
       href="https://www.google.com/maps/search/?api=1&query=Via+Calabria+86+Sesto+San+Giovanni"
       target="_blank">
+
       📍 APRI MAPPA
+
     </a>
 
   </section>
@@ -234,17 +268,23 @@ body{
     <h2>✦ CONFERMA LA TUA PRESENZA ✦</h2>
 
     <p class="dettagli">
+
       La vostra presenza sarà per noi il regalo più bello.
+
       <br><br>
+
       Vi chiediamo gentilmente di confermare la vostra
       partecipazione, così da poter organizzare al meglio
       questo giorno speciale.
+
     </p>
 
     <a
       class="bottone"
       href="mailto:precciado19@gmail.com?subject=Conferma%20presenza%20-%20Matrimonio%20Jhonny%20%26%20Gilda&body=Buongiorno%2C%0A%0Aconfermo%20la%20mia%20presenza%20al%20matrimonio%20di%20Jhonny%20e%20Gilda.%0A%0ANome%20e%20cognome%3A%20">
+
       ✉ CONFERMA LA PRESENZA
+
     </a>
 
   </section>
@@ -255,9 +295,11 @@ body{
     <h2>✦ UN PENSIERO PER NOI ✦</h2>
 
     <p class="dettagli">
+
       Se desiderate accompagnare il nostro nuovo
       cammino con un piccolo pensiero, potete farlo
       tramite il seguente IBAN.
+
     </p>
 
     <div class="iban">
@@ -274,14 +316,18 @@ body{
 
       <br>
 
-      <span id="iban">INSERISCI QUI IL TUO IBAN</span>
+      <span id="iban">
+        IT06G0760103384000055447693
+      </span>
 
     </div>
 
     <button
       class="bottone"
       onclick="copiaIBAN()">
+
       ▣ COPIA IBAN
+
     </button>
 
     <div
@@ -289,12 +335,19 @@ body{
       class="piccolo">
     </div>
 
+    <p class="dettagli">
+      Grazie di cuore per essere parte
+      della nostra felicità. ❤️
+    </p>
+
   </section>
 
 
   <footer class="footer">
 
-    <div class="cuore">♥</div>
+    <div class="cuore">
+      ♥
+    </div>
 
     <div class="grazie">
       Grazie di cuore!
@@ -313,23 +366,23 @@ body{
 
 <script>
 
-function copiaIBAN(){
+function copiaIBAN() {
 
   const iban =
-    document.getElementById("iban").innerText;
-
-  if(iban === "INSERISCI QUI IL TUO IBAN"){
-    alert("Inserisci prima il tuo IBAN.");
-    return;
-  }
+    document.getElementById("iban").innerText.trim();
 
   navigator.clipboard.writeText(iban)
-  .then(function(){
+    .then(function() {
 
-    document.getElementById("copiato")
-    .innerText="IBAN copiato ✓";
+      document.getElementById("copiato").innerText =
+        "IBAN copiato ✓";
 
-  });
+    })
+    .catch(function() {
+
+      alert("IBAN: " + iban);
+
+    });
 
 }
 
