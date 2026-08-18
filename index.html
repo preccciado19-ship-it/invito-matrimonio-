@@ -3,106 +3,170 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Jhonny & Gilda | Matrimonio</title>
 
 <style>
-*{box-sizing:border-box}
-body{
-  margin:0;
-  background:#faf7f1;
-  color:#4b3d33;
-  font-family:Georgia,"Times New Roman",serif;
-  text-align:center;
+* {
+  box-sizing: border-box;
 }
-.card{
-  max-width:700px;
-  min-height:100vh;
-  margin:auto;
-  padding:45px 22px;
-  background:#fffdf9;
-  border:1px solid #e5d5bd;
+
+body {
+  margin: 0;
+  background: #faf7f1;
+  color: #4b3d33;
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
 }
-.decor{
-  color:#b08a57;
-  font-size:24px;
-  letter-spacing:8px;
+
+.card {
+  max-width: 720px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 42px 20px;
+  background: #fffdf9;
+  border-left: 1px solid #e5d5bd;
+  border-right: 1px solid #e5d5bd;
 }
-.piccolo{
-  margin-top:25px;
-  color:#94795d;
-  font-family:Arial,sans-serif;
-  font-size:12px;
-  letter-spacing:4px;
-  text-transform:uppercase;
+
+.decor {
+  color: #b08a57;
+  font-size: 25px;
+  letter-spacing: 8px;
 }
-h1{
-  font-size:clamp(48px,12vw,78px);
-  font-weight:normal;
-  line-height:1;
-  margin:18px 0;
+
+.piccolo {
+  margin-top: 25px;
+  color: #94795d;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
-.amp{
-  color:#b08a57;
-  font-style:italic;
+
+h1 {
+  font-size: clamp(46px, 12vw, 78px);
+  font-weight: normal;
+  line-height: 1;
+  margin: 18px 0;
 }
-.intro{
-  max-width:520px;
-  margin:30px auto;
-  font-size:18px;
-  line-height:1.7;
+
+.amp {
+  color: #b08a57;
+  font-style: italic;
 }
-.data{
-  font-size:23px;
-  letter-spacing:2px;
-  margin-top:30px;
+
+.intro {
+  max-width: 550px;
+  margin: 30px auto;
+  font-size: 18px;
+  line-height: 1.8;
 }
-.ora{
-  margin-top:10px;
-  font-size:18px;
-  color:#806c5b;
+
+.data {
+  font-size: 23px;
+  letter-spacing: 2px;
+  margin-top: 30px;
 }
-.sezione{
-  border-top:1px solid #e5d5bd;
-  margin-top:38px;
-  padding-top:28px;
+
+.ora {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #806c5b;
 }
-h2{
-  font-family:Arial,sans-serif;
-  font-size:13px;
-  font-weight:normal;
-  letter-spacing:3px;
-  text-transform:uppercase;
-  color:#96754f;
+
+.sezione {
+  border-top: 1px solid #e5d5bd;
+  margin-top: 38px;
+  padding-top: 28px;
 }
-.luogo{
-  font-size:20px;
-  line-height:1.6;
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #96754f;
 }
-.bottoni{
-  margin-top:20px;
+
+.testo {
+  font-size: 17px;
+  line-height: 1.7;
 }
-.btn{
-  display:inline-block;
-  padding:13px 22px;
-  border-radius:30px;
-  background:#b08a57;
-  color:white;
-  text-decoration:none;
-  font-family:Arial,sans-serif;
-  font-size:14px;
+
+.luogo {
+  font-size: 20px;
+  line-height: 1.6;
 }
-.btn:hover{
-  opacity:.85;
+
+.bottoni {
+  margin-top: 22px;
 }
-.finale{
-  margin-top:45px;
-  font-size:18px;
-  font-style:italic;
+
+.btn {
+  display: inline-block;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: #b08a57;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
-@media(max-width:430px){
-  .card{padding:38px 17px}
-  .intro{font-size:16px}
-  .data{font-size:19px}
+
+.iban-box {
+  max-width: 560px;
+  margin: 22px auto 10px;
+  padding: 18px 12px;
+  background: #faf4ea;
+  border: 1px solid #e5d5bd;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-break: break-all;
+}
+
+.copia {
+  border: 0;
+  background: none;
+  color: #96754f;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.finale {
+  margin-top: 45px;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+@media (max-width: 430px) {
+  .card {
+    padding: 38px 17px;
+  }
+
+  .intro {
+    font-size: 16px;
+  }
+
+  .data {
+    font-size: 19px;
+  }
+
+  .testo {
+    font-size: 16px;
+  }
+
+  .luogo {
+    font-size: 18px;
+  }
+
+  .iban-box {
+    font-size: 13px;
+  }
 }
 </style>
 </head>
@@ -111,91 +175,145 @@ h2{
 
 <div class="card">
 
-<div class="decor">✦ ✦ ✦</div>
+  <div class="decor">✦ ✦ ✦</div>
 
-<div class="piccolo">Il nostro giorno più bello</div>
+  <div class="piccolo">
+    Il nostro giorno più bello
+  </div>
 
-<h1>
-Jhonny <span class="amp">&amp;</span> Gilda
-</h1>
+  <h1>
+    Jhonny <span class="amp">&amp;</span> Gilda
+  </h1>
 
-<p class="intro">
-Siamo lieti d’invitarvi a celebrare con noi
-il nostro giorno più bello.
-</p>
+  <p class="intro">
+    Siamo lieti d’invitarvi a celebrare con noi il nostro giorno più bello.
+    <br><br>
+    Con immensa gioia vi aspettiamo per condividere insieme un momento speciale,
+    circondati dalle persone che amiamo.
+  </p>
 
-<div class="data">
-VENERDÌ 25 SETTEMBRE 2026
-</div>
+  <div class="data">
+    VENERDÌ 25 SETTEMBRE 2026
+  </div>
 
-<div class="ora">
-Cerimonia · ore 9:30
-</div>
+  <div class="ora">
+    Ore 9:30
+  </div>
 
-<div class="sezione">
 
-<h2>Cerimonia</h2>
+  <div class="sezione">
 
-<div class="luogo">
-Piazza del Duomo 12
-</div>
+    <h2>💒 La cerimonia</h2>
 
-<div class="bottoni">
-<a class="btn"
-href="https://www.google.com/maps/search/?api=1&query=Piazza+del+Duomo+12"
-target="_blank">
-Apri la mappa
-</a>
-</div>
+    <div class="luogo">
+      📍 Piazza del Duomo 12
+    </div>
 
-</div>
+    <div class="bottoni">
+      <a
+        class="btn"
+        href="https://www.google.com/maps/search/?api=1&query=Piazza+del+Duomo+12"
+        target="_blank">
+        Apri la mappa
+      </a>
+    </div>
 
-<div class="sezione">
+  </div>
 
-<h2>Ricevimento</h2>
 
-<div class="luogo">
-Ore 14:30<br>
-Via Calabria 86<br>
-Sesto San Giovanni
-</div>
+  <div class="sezione">
 
-<div class="bottoni">
-<a class="btn"
-href="https://www.google.com/maps/search/?api=1&query=Via+Calabria+86+Sesto+San+Giovanni"
-target="_blank">
-Apri la mappa
-</a>
-</div>
+    <h2>🥂 Il ricevimento</h2>
 
-</div>
+    <p class="testo">
+      Dopo la cerimonia saremo felici di festeggiare insieme a voi.
+    </p>
 
-<div class="sezione">
+    <div class="luogo">
+      📍 Via Calabria 86<br>
+      Sesto San Giovanni
+    </div>
 
-<h2>Conferma la presenza</h2>
+    <p class="testo">
+      Ore 14:30
+    </p>
 
-<p>
-Vi chiediamo gentilmente di confermare
-la vostra presenza.
-</p>
+    <div class="bottoni">
+      <a
+        class="btn"
+        href="https://www.google.com/maps/search/?api=1&query=Via+Calabria+86+Sesto+San+Giovanni"
+        target="_blank">
+        Apri la mappa
+      </a>
+    </div>
 
-<div class="bottoni">
-<a class="btn"
-href="mailto:?subject=Conferma%20presenza%20Jhonny%20e%20Gilda&body=Confermo%20la%20mia%20presenza%20al%20matrimonio%20del%2025%20settembre%202026.">
-Conferma la presenza
-</a>
-</div>
+  </div>
 
-</div>
 
-<div class="finale">
-Con affetto,<br>
-Jhonny &amp; Gilda ❤️
-</div>
+  <div class="sezione">
 
-<div class="decor" style="margin-top:30px">
-✦
-</div>
+    <h2>💌 Conferma la tua presenza</h2>
+
+    <p class="testo">
+      La vostra presenza sarà per noi il regalo più bello.
+      <br>
+      Vi chiediamo gentilmente di confermare la vostra partecipazione,
+      così da poter organizzare al meglio questo giorno speciale.
+    </p>
+
+    <p class="testo">
+      Saremo felici di festeggiare insieme a voi!
+    </p>
+
+    <div class="bottoni">
+      <a
+        class="btn"
+        href="mailto:?subject=Conferma%20presenza%20Jhonny%20e%20Gilda&body=Confermo%20la%20mia%20presenza%20al%20matrimonio%20di%20Jhonny%20e%20Gilda%20del%2025%20settembre%202026.">
+        Conferma la presenza
+      </a>
+    </div>
+
+  </div>
+
+
+  <div class="sezione">
+
+    <h2>🎁 Un pensiero per noi</h2>
+
+    <p class="testo">
+      Se desiderate accompagnare il nostro nuovo cammino
+      con un piccolo pensiero, potete farlo tramite:
+    </p>
+
+    <div class="iban-box" id="iban">
+      IT06G0760103384000055447693
+    </div>
+
+    <button
+      class="copia"
+      onclick="
+        navigator.clipboard.writeText(
+          document.getElementById('iban').innerText.trim()
+        );
+        this.innerText='IBAN copiato ✓';
+      ">
+      Copia IBAN
+    </button>
+
+    <p class="testo">
+      Grazie di cuore per essere parte della nostra felicità. ❤️
+    </p>
+
+  </div>
+
+
+  <div class="finale">
+    Jhonny &amp; Gilda ❤️
+  </div>
+
+  <div class="decor" style="margin-top:30px;">
+    ✦
+  </div>
 
 </div>
 
